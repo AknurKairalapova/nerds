@@ -300,10 +300,7 @@ p {
     left: 50%;
     width: 100px;
     height: 12px;
-    margin: 0;
     margin-left: -50px;
-    padding-left: 0;
-    list-style: none;
     font-size: 0;
     text-align: center;
     z-index: 1000;
@@ -315,11 +312,13 @@ p {
     width: 10px;
     height: 10px;
     margin-right: 10px;
-    font-size: 14px;
     background: #fff;
     border: 3px solid #fff;
     border-radius: 50%;
     cursor: pointer;
+    font: 0/0 a;
+    text-shadow: none;
+    color: transparent;
 }
 
 .slider-indicator:last-child {
