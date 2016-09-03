@@ -9,8 +9,8 @@
 
 body {
     font-family: Roboto, Arial, sans-serif;
-    font-size: 14px;
-    line-height: 1.42;
+    font-size: 16px;
+    line-height: 22px;
     font-weight: 300;
     color: #283136;
     background: #fff;
@@ -253,8 +253,6 @@ p {
 
 .slider-desc {
     margin-bottom: 27px;
-    font-size: 16px;
-    line-height: 22px;
 }
 
 .slider-item-design {
@@ -373,8 +371,6 @@ p {
 
 .feature-desc {
     margin-bottom: 25px;
-    font-size: 16px;
-    line-height: 22px;
 }
 
 .feature-site {
@@ -433,14 +429,9 @@ p {
     margin: 0;
     margin-bottom: 20px;
     font-size: 36px;
-    line-height: 36px;
+    line-height: 1;
     font-weight: 500;
-}
-
-.about-us-info-desc {
-    margin-bottom: 0;
-    font-size: 16px;
-    line-height: 22px;
+    color: #000;
 }
 
 .about-us-logo {
@@ -453,9 +444,6 @@ p {
 
 .work-title {
     margin: 0 0 30px;
-    font-size: 16px;
-    line-height: 22px;
-    /*color: #283136;*/
     font-weight: 500;
     text-transform: uppercase;
 }
@@ -464,10 +452,6 @@ p {
     margin: 0;
     padding-left: 0;
     list-style: none;
-    font-size: 16px;
-    line-height: 22px;
-    font-weight: 300;
-    /*color: #283136;*/
 }
 
 .work-list-item {
@@ -506,7 +490,7 @@ p {
     vertical-align: middle;
     width: 240px;
     margin-right: 80px;
-    /*font-size: 14px;*/
+    font-size: 16px;
     text-align: center;
 }
 
@@ -544,9 +528,7 @@ p {
     padding: 25px 20px 25px;
     z-index: 10;
     background: #fff;
-    font-size: 16px;
     line-height: 20px;
-    font-weight: 300;
     color: #666;
     font-style: normal;;
 }
@@ -595,8 +577,6 @@ p {
 .offer {
     float: right;
     width: 560px;
-    font-size: 16px;
-    line-height: 22px;
 }
 
 .social-link {
@@ -659,7 +639,7 @@ p {
 .offer-title {
     margin-bottom: 10px;
     font-size: 36px;
-    line-height: 36px;
+    line-height: 1;
     font-weight: 500;
     color: #000;
 }
