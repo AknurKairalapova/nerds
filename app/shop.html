@@ -19,7 +19,7 @@
                 <ul class="nav-menu">
                     <li class="nav-menu-item"><a href="index.html" class="nav-menu-link">студия</a></li>
                     <li class="nav-menu-item disabled"><a href="#" class="nav-menu-link">клиенты</a></li>
-                    <li class="nav-menu-item active"><a href="#" class="nav-menu-link">магазин</a></li>
+                    <li class="nav-menu-item active"><a href="shop.html" class="nav-menu-link">магазин</a></li>
                     <li class="nav-menu-item disabled"><a href="#" class="nav-menu-link">контакты</a></li>
                 </ul>
             </nav>
@@ -30,66 +30,64 @@
     </header>
 
     <div class="welcome">
-        <div class="central-container">
+        <div class="center-container">
             <h1 class="welcome-title">Добро пожаловать в магазин готовых макетов</h1>
         </div>
     </div>
 
-    <div class="central-container">
+    <div class="center-container">
         <div class="catalog-container">
             <form class="catalog-filter">
                 <div class="filter-group">
                     <div class="filter-group-title">Стоимость:</div>
                     <div class="range">
-                        <div class="range-controls">
-                            <div class="scale">
-                                <div style="width:70%;" class="bar"></div>
+                            <div class="range-scale">
+                                <div class="range-bar" style="width:70%;"></div>
                             </div>
-                            <div class="toggle min-toggle"></div>
-                            <div class="toggle max-toggle"></div>
+                            <div class="range-toggle"></div>
+                            <div class="range-toggle range-toggle-max"></div>
                         </div>
-                        <div class="price-controls">
-                            от <input class="min-price" type="text" value="5 000">
-                            до <input class="max-price" type="text" value="15 000">
+                    <div class="price-controls">
+                            от <input class="price-input price-min" type="text" value="5 000">
+                            до <input class="price-input price-max" type="text" value="15 000">
                         </div>
-                    </div>
                 </div>
                 <div class="filter-group">
                     <div class="filter-group-title">Сетка:</div>
-                    <div class="form-control">
+                    <div class="filter-control">
                         <input type="radio" value="0" name="layout" id="adaptive" checked="">
-                        <label for="adaptive">Адаптивная</label>
+                        <label for="adaptive" class="filter-control-label">Адаптивная</label>
                     </div>
-                    <div class="form-control">
+                    <div class="filter-control">
                         <input type="radio" value="1" name="layout" id="fixed">
-                        <label for="fixed">Фиксированная</label>
+                        <label for="fixed" class="filter-control-label">Фиксированная</label>
                     </div>
-                    <div class="form-control">
+                    <div class="filter-control">
                         <input type="radio" value="2" name="layout" id="rubber">
-                        <label for="rubber">Резиновая</label>
+                        <label for="rubber" class="filter-control-label">Резиновая</label>
                     </div>
                 </div>
                 <div class="filter-group">
                     <div class="filter-group-title">Особенности:</div>
-                    <div class="form-control">
+                    <div class="filter-control">
                         <input type="checkbox" id="slider" checked="">
-                        <label for="slider">Слайдер</label>
+                        <label for="slider" class="filter-control-label">Слайдер</label>
                     </div>
-                    <div class="form-control">
+                    <div class="filter-control">
                         <input type="checkbox" id="advantage">
-                        <label for="advantage">Блок преимуществ</label>
+                        <label for="advantage" class="filter-control-label">Блок преимуществ</label>
                     </div>
-                    <div class="form-control">
+                    <div class="filter-control">
                         <input type="checkbox" id="news" checked="">
-                        <label for="news">Новости</label>
+                        <label for="news" class="filter-control-label">Новости</label>
                     </div>
-                    <div class="form-control">
+                    <div class="filter-control">
                         <input type="checkbox" id="gallery">
-                        <label for="gallery">Галерея</label>
+                        <label for="gallery" class="filter-control-label">Галерея</label>
                     </div>
-                    <div class="form-control">
+                    <div class="filter-control">
                         <input type="checkbox" id="basket">
-                        <label for="basket">Корзина</label>
+                        <label for="basket" class="filter-control-label">Корзина</label>
                     </div>
                 </div>
             </form>
@@ -109,67 +107,67 @@
                 <div class="makets">
                     <div class="maket">
                         <div class="maket-img-wrapper">
-                            <img src="" alt="" class="maket-img">
+                            <img src="pic/aviator.png" alt="макет Aviator" class="maket-img">
                         </div>
                         <div class="maket-caption">
                             <h2 class="maket-title">sunset</h2>
                             <p class="maket-desc">Интернет-магазин с личным кабинетом</p>
-                            <a href="" class="btn btn-default">10 000 P.</a>
+                            <a href="#" class="btn btn-default">10 000 P.</a>
                         </div>
                     </div>
                     <div class="maket">
                         <div class="maket-img-wrapper">
-                            <img src="" alt="" class="maket-img">
+                            <img src="pic/desert.png" alt="макет Desert" class="maket-img">
                         </div>
                         <div class="maket-caption">
                             <h2 class="maket-title">sunset</h2>
                             <p class="maket-desc">Интернет-магазин с личным кабинетом</p>
-                            <a href="" class="btn btn-default">10 000 P.</a>
+                            <a href="#" class="btn btn-default">10 000 P.</a>
                         </div>
                     </div>
                     <div class="maket">
                         <div class="maket-img-wrapper">
-                            <img src="" alt="" class="maket-img">
+                            <img src="pic/forte.png" alt="макет Forte" class="maket-img">
                         </div>
                         <div class="maket-caption">
                             <h2 class="maket-title">sunset</h2>
                             <p class="maket-desc">Интернет-магазин с личным кабинетом</p>
-                            <a href="" class="btn btn-default">10 000 P.</a>
+                            <a href="#" class="btn btn-default">10 000 P.</a>
                         </div>
                     </div>
                     <div class="maket">
                         <div class="maket-img-wrapper">
-                            <img src="" alt="" class="maket-img">
+                            <img src="pic/thai.png" alt="макет Modern Organic Thai" class="maket-img">
                         </div>
                         <div class="maket-caption">
                             <h2 class="maket-title">sunset</h2>
                             <p class="maket-desc">Интернет-магазин с личным кабинетом</p>
-                            <a href="" class="btn btn-default">10 000 P.</a>
+                            <a href="#" class="btn btn-default">10 000 P.</a>
                         </div>
                     </div>
                     <div class="maket">
                         <div class="maket-img-wrapper">
-                            <img src="" alt="" class="maket-img">
+                            <img src="pic/avenue.png" alt="макет Avenue" class="maket-img">
                         </div>
                         <div class="maket-caption">
                             <h2 class="maket-title">sunset</h2>
                             <p class="maket-desc">Интернет-магазин с личным кабинетом</p>
-                            <a href="" class="btn btn-default">10 000 P.</a>
+                            <a href="#" class="btn btn-default">10 000 P.</a>
                         </div>
                     </div>
                     <div class="maket">
                         <div class="maket-img-wrapper">
-                            <img src="" alt="" class="maket-img">
+                            <img src="pic/dovetail.png" alt="макет Dovertail" class="maket-img">
                         </div>
                         <div class="maket-caption">
                             <h2 class="maket-title">sunset</h2>
                             <p class="maket-desc">Интернет-магазин с личным кабинетом</p>
-                            <a href="" class="btn btn-default">10 000 P.</a>
+                            <a href="#" class="btn btn-default">10 000 P.</a>
                         </div>
                     </div>
                 </div>
                 <ul class="pagination">
-                    <li class="pagination-item"><a href="#" class="pagination-link">1</a></li>
+                    <li class="pagination-item active"><a href="#" class="pagination-link">1</a></li>
                     <li class="pagination-item"><a href="#" class="pagination-link">2</a></li>
                     <li class="pagination-item"><a href="#" class="pagination-link">3</a></li>
                     <li class="pagination-item"><a href="#" class="pagination-link">Следующая</a></li>

@@ -642,3 +642,467 @@ p {
     font-weight: 500;
     color: #000;
 }
+
+/* ================================
+      Welcome block
+ ================================*/
+.welcome {
+    margin-bottom: 80px;
+    padding-top: 60px;
+    padding-bottom: 80px;
+    background: #eee;
+}
+
+.welcome-title {
+    margin: 0;
+    font-size: 40px;
+    line-height: 1.24;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/* ================================
+      Catalog
+ ================================*/
+.catalog-container {
+    margin-bottom: 80px;
+}
+
+.catalog-container:before,
+.catalog-container:after {
+    content: " ";
+    display: table;
+}
+
+.catalog-container:after {
+    clear: both;
+}
+
+.catalog-filter {
+    float: left;
+    width: 240px;
+}
+
+.catalog-items {
+    float: right;
+    width: 560px;
+}
+
+.filter-group {
+    margin-bottom: 35px;
+}
+
+.filter-group:last-child {
+    margin-bottom: 0;
+}
+
+.filter-group-title {
+    margin-bottom: 15px;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.range {
+    position: relative;
+    width: 240px;
+    height: 80px;
+    margin-bottom: 15px;
+    padding: 0 30px;
+    background: #f1f1f1;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.range-scale {
+    margin-top: 39px;
+    height: 2px;
+    background: #d7dcde;
+}
+
+.range-bar {
+    height: 2px;
+    background: #00ca74;
+}
+
+.range-toggle {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 20px;
+    height: 20px;
+    border: 8px solid #fff;
+    background: #ababab;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 0 2px 1px 0 #cfcfcf;
+}
+
+.range-toggle-max {
+    left: 145px;
+}
+
+.price-controls {
+    width: 240px;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.price-input {
+    width: 80px;
+    padding: 8px 10px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+    background: #f1f1f1;
+    color: #283136;
+}
+
+.price-min {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.price-max {
+    margin-left: 9px;
+}
+
+.filter-control {
+    margin-bottom: 15px;
+}
+
+.filter-control:last-child {
+    margin-bottom: 0;
+}
+
+.filter-control input[type="radio"],
+.filter-control input[type="checkbox"] {
+    display: none;
+}
+
+.filter-control-label {
+    position: relative;
+    display: inline-block;
+    padding-left: 30px;
+    line-height: 20px;
+}
+
+.filter-control input[type="radio"] + .filter-control-label:before {
+    content: " ";
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    border: 4px solid #d8dddf;
+    background: #fff;
+    z-index: 10;
+}
+
+.filter-control input[type="radio"]:checked + .filter-control-label:after {
+    content: " ";
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    top: 7px;
+    left: 7px;
+    border-radius: 50%;
+    background: #d8dddf;
+    z-index: 20;
+}
+
+.filter-control input[type="checkbox"] + .filter-control-label:before {
+    content: " ";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 0;
+    left: 0;
+    background: #d8dddf;
+    border-radius: 4px;
+    z-index: 10;
+}
+
+.filter-control input[type="checkbox"]:checked + .filter-control-label:after {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background: #fff url(../img/chbx.png) no-repeat;
+    z-index: 12;
+}
+
+.sort {
+    margin-bottom: 43px;
+    padding: 5px 0;
+    line-height: 18px;
+}
+
+.sort:before,
+.sort:after {
+    content: " ";
+    display: table;
+}
+
+.sort:after {
+    clear: both;
+}
+
+.sort-title {
+    float: left;
+    display: inline-block;
+    margin-right: 40px;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.sort-list {
+    float: left;
+}
+
+.sort-link {
+    display: inline-block;
+    margin-right: 40px;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+    border-bottom: 1px dotted #00ca74;
+}
+
+.sort-link:last-child {
+    margin-right: 0;
+}
+
+.sort-controls {
+    float: right;
+}
+
+.sort-control-down {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 10px solid #00ca74;
+}
+
+.sort-control-top {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 10px solid #ccc;
+}
+
+.makets {
+    font-size: 0;
+}
+
+.maket {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 240px;
+    margin-right: 80px;
+    margin-bottom: 80px;
+    font-size: 14px;
+}
+
+.maket:nth-child(2n) {
+    margin-right: 0;
+}
+
+.maket:hover {
+    cursor: pointer;
+}
+
+.maket:before {
+    content: " ";
+    position: absolute;
+    top: -30px;
+    width: 240px;
+    height: 30px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    background: #f1f1f1;
+}
+
+.maket:hover:before {
+    content: " ";
+    position: absolute;
+    top: -30px;
+    width: 240px;
+    height: 30px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    background: #797979;
+}
+
+.maket:after {
+    content: " ";
+    position: absolute;
+    left: 50%;
+    top: -20px;
+    margin-left: -75px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #fff;
+    z-index: 3000;
+}
+
+.maket-img-wrapper {
+    width: 100%;
+    height: 240px;
+}
+
+.maket-img-wrapper:before {
+    content: " ";
+    position: absolute;
+    display: block;
+    width: 10px;
+    height: 10px;
+    top: -20px;
+    left: 10px;
+    border-radius: 50%;
+    background: #fff;
+    z-index: 5000;
+}
+
+.maket-img-wrapper:after {
+    content: " ";
+    position: absolute;
+    display: block;
+    width: 10px;
+    height: 10px;
+    top: -20px;
+    left: 28px;
+    border-radius: 50%;
+    background: #fff;
+    z-index: 2000;
+}
+
+.maket-img {
+    width: 100%;
+}
+
+.maket-caption {
+    display: none;
+    position: absolute;
+    width: 200px;
+    min-height: 200px;
+    left: 20px;
+    top: 20px;
+    padding: 30px;
+    background: #fff;
+    z-index: 100;
+}
+
+.maket:hover .maket-caption {
+    display: block;
+}
+
+.maket-title {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.maket-desc {
+    margin-bottom: 30px;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.maket-caption .btn {
+    width: 140px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    line-height: 1;
+}
+
+.pagination {
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.pagination-item {
+    display: inline-block;
+    vertical-align: bottom;
+    margin-right: 8px;
+}
+
+.pagination-item:last-child {
+    margin-right: 0;
+}
+
+.pagination-link {
+    display: block;
+    padding: 10px 15px;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    background: #f1f1f1;
+    border: 2px solid #f1f1f1;
+    border-radius: 4px;
+}
+
+.pagination-link:hover {
+    border: 2px solid #e5e5e5;
+    background: #e5e5e5;
+}
+
+.pagination-link:active {
+    background: #d5d5d5;
+    color: #a9a9a9;
+    border-top: none;
+    border-color: transparent;
+    box-shadow: 0 3px 0 0 #b5b5b5 inset;
+}
+
+.pagination-item.active .pagination-link {
+    background: #fff;
+    border: 2px solid #f1f1f1;
+}
+
+.pagination-item.active .pagination-link:hover {
+    background: #fff;
+    border: 2px solid #f1f1f1;
+}
+
+.pagination-item.active .pagination-link:active {
+    background: #fff;
+    border: 2px solid #f1f1f1;
+    color: #000;
+    box-shadow: none;
+}
+
+
+
+
