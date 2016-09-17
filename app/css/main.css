@@ -238,8 +238,14 @@ p {
     display: none;
 }
 
-.slider-item.active {
+#slider-item-design:checked ~ .slider-item-design,
+#slider-item-math:checked ~ .slider-item-math,
+#slider-item-hardcore:checked ~ .slider-item-hardcore {
     display: block;
+}
+
+.slider-items input[type=radio] {
+    display: none;
 }
 
 .slider-title {
@@ -259,12 +265,9 @@ p {
     width: 330px;
 }
 
-.slider-item-math {
-    width: 480px;
-}
-
+.slider-item-math,
 .slider-item-hardcore {
-    width: 440px;
+    width: 480px;
 }
 
 .slider-item:before {
@@ -296,7 +299,7 @@ p {
 
 .slider-indicators {
     position: absolute;
-    bottom: 90px;
+    bottom: 0;
     left: 50%;
     width: 100px;
     height: 12px;
@@ -316,18 +319,18 @@ p {
     border: 3px solid #fff;
     border-radius: 50%;
     cursor: pointer;
-    font: 0/0 a;
-    text-shadow: none;
-    color: transparent;
 }
 
 .slider-indicator:last-child {
     margin-right: 0;
 }
 
-.slider-indicator.active {
+#slider-item-design:checked ~ .slider-indicators label[for="slider-item-design"],
+#slider-item-math:checked ~ .slider-indicators label[for="slider-item-math"],
+#slider-item-hardcore:checked ~ .slider-indicators label[for="slider-item-hardcore"] {
     background: #c1c1c1;
 }
+
 
 /* ================================
       Features

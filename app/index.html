@@ -31,27 +31,33 @@
     <div class="slider">
         <div class="center-container">
             <div class="slider-items">
-                <div class="slider-item slider-item-design active">
+                <input type="radio" id="slider-item-design" name="toggle" checked>
+                <input type="radio" id="slider-item-math" name="toggle">
+                <input type="radio" id="slider-item-hardcore" name="toggle">
+
+                <div class="slider-indicators">
+                    <label for="slider-item-design" class="slider-indicator"></label>
+                    <label for="slider-item-math" class="slider-indicator"></label>
+                    <label for="slider-item-hardcore" class="slider-indicator"></label>
+                </div>
+
+                <div class="slider-item slider-item-design">
                     <div class="slider-title">Дорого, долго, скурпулезно.</div>
                     <p class="slider-desc">Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
                     <a href="#" class="btn btn-default">узнать больше</a>
                 </div>
-                <div class="slider-item slider-item-math ">
+                <div class="slider-item slider-item-math">
                     <div class="slider-title">Любите ли вы математику, как любим ее мы?</div>
                     <p class="slider-desc">Нашим дизайнерам мы удаляем нейроны, ответственные за креатив, чтобы дать им возможность все просчитать</p>
                     <a href="#" class="btn btn-default">узнать больше</a>
                 </div>
-                <div class="slider-item slider-item-hardcore ">
+                <div class="slider-item slider-item-hardcore">
                     <div class="slider-title">Только наркотики, только хардкор!</div>
                     <p class="slider-desc">Все дизайнерские решения в нашей компании принимаются только под воздействием качественных галлюциногенов</p>
                     <a href="#" class="btn btn-default">узнать больше</a>
                 </div>
             </div>
-            <div class="slider-indicators">
-                <a href="#" class="slider-indicator active">дизайн</a>
-                <a href="#" class="slider-indicator">математика</a>
-                <a href="#" class="slider-indicator">хардкор</a>
-            </div>
+
         </div>
     </div>
     <div class="center-container">
